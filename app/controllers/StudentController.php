@@ -14,4 +14,10 @@ class StudentController
         echo "<h1>Tambah siswa</h1>";
         echo "<p>Menampilkan form tambah siswa</p>";;
     }
+
+    public function show(string $id)
+    {
+        echo "<h1>Detail Siswa</h1>";
+        echo "<p>Menampilkan detail siswa dengan ID: $id</p>";
+    }
 }
